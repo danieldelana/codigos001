@@ -10,5 +10,5 @@ var arrayBidimensional=[
 // console.log(arrayBidimensional[a][b]);
 // resultado devolveu espalhado os valores mas com undefined no entre as chaves
 for(i=0;i<arrayBidimensional.length;i++)
-for(j=0;j<arrayBidimensional.length;j++)
+for(j=0;j<arrayBidimensional[i].length;j++)
 console.log(arrayBidimensional[i][j]);
